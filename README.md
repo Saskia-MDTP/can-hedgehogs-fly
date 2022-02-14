@@ -33,4 +33,7 @@ nothing interesting here, just testing in-line mermaid.
    Ingest-->P1;
    Ingest-->P2;
    Ingest-->P3;
+   Y1-->Q2{Is this<br/>Webops?};
+   Q2-->Y2((No));
+   Q2-->N2((No));
 ```
