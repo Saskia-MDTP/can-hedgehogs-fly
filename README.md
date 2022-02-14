@@ -47,5 +47,6 @@ nothing interesting here, just testing in-line mermaid.
    P1-->I2;
    P2-->I2;
    P3-->I2;
+   I2-->S3;
    I2-->Elasticsearch;
 ```
