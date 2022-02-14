@@ -18,10 +18,10 @@ nothing interesting here, just testing in-line mermaid.
           subgraph "Broker 1"
               P1[Logs Topic<br/>Part 1];
            end
-          subgraph Broker_2
+          subgraph "Broker 2"
               P2[Logs Topic<br/>Part 2];
            end
-          subgraph Broker_3
+          subgraph "Broker 3"
               P3[Logs Topic<br/>Part 3];
            end
        end
