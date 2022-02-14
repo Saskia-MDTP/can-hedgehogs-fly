@@ -30,6 +30,7 @@ nothing interesting here, just testing in-line mermaid.
    Q1-->Y1((Yes));
    Q1-->N1((No));
    N1-->Redis-->I1[Webops<br/>Ingest];
+   Lambda-->Redis;
    I1-->P1;
    I1-->P2;
    I1-->P3;
