@@ -39,4 +39,8 @@ nothing interesting here, just testing in-line mermaid.
    Y2-->P1;
    Y2-->P2;
    Y2-->P3;
+   N2-->HAProxy-->Fluentbit;
+   Fluentbit-->P1;
+   Fluentbit-->P2;
+   Fluentbit-->P3;
 ```
