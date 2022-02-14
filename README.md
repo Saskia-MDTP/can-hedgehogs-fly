@@ -15,8 +15,7 @@ nothing interesting here, just testing in-line mermaid.
 ```mermaid
   graph LR;
       subgraph MSK
-          subgraph Broker_1
-              title "Broker 1";
+          subgraph "Broker 1"
               P1[Logs Topic<br/>Part 1];
            end
           subgraph Broker_2
