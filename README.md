@@ -25,4 +25,5 @@ nothing interesting here, just testing in-line mermaid.
               P3[Logs Topic<br/>Part 3];
            end
        end
+   Generator-->Logstash;
 ```
