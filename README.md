@@ -29,4 +29,5 @@ nothing interesting here, just testing in-line mermaid.
    Logstash-->Q1{Has this<br/>Environment Been<br/>Migrated};
    Q1-->Y1((Yes));
    Q1-->N1((No));
+   N1-->Redis;
 ```
