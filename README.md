@@ -21,11 +21,14 @@ nothing interesting here, just testing in-line mermaid.
           subgraph Broker_2
               P2[Logs Topic<br/>Part 2];
            end
-          subgraph Broker_2
+          subgraph Broker_3
               P3[Logs Topic<br/>Part 3];
            end
        end
        Logstash-->P1;
        Logstash-->P2;
        Logstash-->P3;
+       Logstash-->HAProxy-->Fluentbit-->P1;
+       Logstash-->HAProxy-->Fluentbit-->P2;
+       Logstash-->HAProxy-->Fluentbit-->P3;
 ```
