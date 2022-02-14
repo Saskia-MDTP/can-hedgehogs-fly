@@ -43,7 +43,7 @@ nothing interesting here, just testing in-line mermaid.
    Fluentbit-->P1;
    Fluentbit-->P2;
    Fluentbit-->P3;
-   I2{NWT<br/>};
+   I2{NWT<br/>Ingest};
    P1-->I2;
    P2-->I2;
    P3-->I2;
