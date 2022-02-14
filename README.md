@@ -28,7 +28,8 @@ nothing interesting here, just testing in-line mermaid.
        Logstash-->P1;
        Logstash-->P2;
        Logstash-->P3;
-       Logstash-->HAProxy-->Fluentbit-->P1;
-       Logstash-->HAProxy-->Fluentbit-->P2;
-       Logstash-->HAProxy-->Fluentbit-->P3;
+       Logstash-->HAProxy-->Fluentbit;
+       Fluentbit-->P1;
+       Fluentbit-->P2;
+       Fluentbit-->P3;
 ```
