@@ -5,8 +5,7 @@ nothing interesting here, just testing in-line mermaid.
 
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+      Logstash_client-->MSK;
+      Logstash_client-->HAProxy-->Fluentbit-->MSK;
+      MSK-->Logstash_ingest--> Elasticsearch;
 ```
