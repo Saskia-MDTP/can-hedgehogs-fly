@@ -25,9 +25,11 @@ nothing interesting here, just testing in-line mermaid.
               P3[Logs Topic<br/>Part 3];
            end
        end
-       Logstash-->P1;
-       Logstash-->P2;
-       Logstash-->P3;
+       Logstash-->Q{Is this<br/>Webops}
+       Q-->Yes(Yes);
+       Yes-->P1;
+       Yes-->P2;
+       Yes-->P3;
        Logstash-->HAProxy-->Fluentbit;
        Fluentbit-->P1;
        Fluentbit-->P2;
