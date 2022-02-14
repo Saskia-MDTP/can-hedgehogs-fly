@@ -10,3 +10,22 @@ nothing interesting here, just testing in-line mermaid.
       E--No-->HAProxy-->Fluentbit-->MSK;
       MSK-->LI[Logstash ingest]--> Elasticsearch;
 ```
+
+
+```mermaid
+  graph LR;
+      subgraph MSK
+          subgraph Broker_1
+              P1[Logs Topic<br/>Part 1];
+           end
+          subgraph Broker_2
+              P2[Logs Topic<br/>Part 2];
+           end
+          subgraph Broker_2
+              P3[Logs Topic<br/>Part 3];
+           end
+       end
+       Logstash-->P1;
+       Logstash-->P2;
+       Logstash-->P3;
+```
