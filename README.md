@@ -30,7 +30,8 @@ nothing interesting here, just testing in-line mermaid.
        Yes-->P1;
        Yes-->P2;
        Yes-->P3;
-       Logstash-->HAProxy-->Fluentbit;
+       Q-->No(No);
+       No-->HAProxy-->Fluentbit;
        Fluentbit-->P1;
        Fluentbit-->P2;
        Fluentbit-->P3;
