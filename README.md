@@ -26,11 +26,11 @@ nothing interesting here, just testing in-line mermaid.
            end
        end
        Logstash-->Q{Is this<br/>Webops}
-       Q-->Yes(Yes);
+       Q-->Yes((Yes));
        Yes-->P1;
        Yes-->P2;
        Yes-->P3;
-       Q-->No(No);
+       Q-->No((No));
        No-->HAProxy-->Fluentbit;
        Fluentbit-->P1;
        Fluentbit-->P2;
