@@ -27,6 +27,16 @@ nothing interesting here, just testing in-line mermaid.
        end
        Logstash-->Q{Is this<br/>Webops}
        Q-->Yes((Yes));
+       Yes-->Q2<Is this<br/>Legacy?>;
+       Q2-->Yes2((Yes));
+       Q2-->No2((No));
+       No2-->P1;
+       No2-->P2;
+       N02-->P3;
+       Yes2-->Redis-->Ingest;
+       Ingest-->P1;
+       Ingest-->P2;
+       Ingest-->P3;
        Yes-->P1;
        Yes-->P2;
        Yes-->P3;
